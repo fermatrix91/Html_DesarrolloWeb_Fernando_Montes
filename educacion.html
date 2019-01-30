@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Proyecto HTML</title>
+  </head>
+  <body>
+
+    <header>
+      <img src="img/logo.svg" width="100px">
+    </header>
+
+    <section>
+      <section>
+        <h1>Hoja de Vida</h1>
+      </section>
+
+      <section>
+        <h2>Fernando Josué Montes Navarrete</h2>
+        <h3>11 de agosto 1991, Managua, Nicaragua.</h3>
+      </section>
+
+      <section>
+        <a href="index.html">Inicio</a>
+        <a href="educacion.html">Educación</a>
+        <a href="experiencia.html">Experiencia</a>
+      </section>
+
+      <section>
+        <h2>Educación</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Institución</th>
+              <th>Lugar</th>
+              <th>¿Culminó?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2003</td>
+              <td>Las abejitas</td>
+              <td>Managua</td>
+              <td>Sí</td>
+            </tr>
+            <tr>
+              <td>2007</td>
+              <td>Instituto Tecnológico</td>
+              <td>Tegucigalpa</td>
+              <td>Sí</td>
+            </tr>
+            <tr>
+              <td>2014</td>
+              <td>UNI</td>
+              <td>Managua</td>
+              <td>Sí</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <form>
+          <fieldset>
+            <legend><strong>Agregar Estudios</strong></legend>
+            <label for="anio"><strong>Año</strong></label>
+            <select name="anio">
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+            </select>
+            <br />
+            <label for="institucion"><strong>Institución</strong></label>
+            <input type="text" name="institicion" value="">
+            <br />
+            <label for="lugar"><strong>Lugar</strong></label>
+            <textarea name="lugar"></textarea>
+            <br />
+            <button type="submit" name="enviar">Enviar</button>
+          </fieldset>
+        </form>
+      </section>
+    </section>
+
+    <footer>
+      <label><strong>Correo electronico:</strong> fjosuemn@gmail.com - </label>
+      <label><strong>Teléfono:</strong> (505)87435688 - </label>
+      <label><strong>Facebook:</strong> https://www.facebook.com/Fernando.Marbely</label>
+    </footer>
+
+  </body>
+</html>
